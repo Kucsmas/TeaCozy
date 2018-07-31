@@ -5,13 +5,18 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-header {
+.header {
+  margin: 0;
+  padding: 0;
   position: fixed;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
   z-index: 10;
 }
 
@@ -21,28 +26,63 @@ header {
   height: 50px;
 }
 
-header ul {
+.header ul {
+  margin-right: 10px;
   float: right;
   display: inline;
   list-style: none;
 }
 
-header li {
+.header li {
   display: inline;
   margin-left: 5px;
   text-decoration: underline;
 }
+#spacer {
+  padding-right: 10px;
+}
 
-.main, .tea, .loc, .cont, footer {
+.tea, .loc, .cont, footer {
   border: 1px solid white;
 }
 
-.main {
+
+
+.miss {
+  margin: 0;
   height: 700px;
+  background-image: url("./images/mission.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px 700px;
+  background-position: center;
+  z-index: 9;
+  text-align: center;
 }
 
-.tea {
+.a {
+  position: relative;
+  top: 300px;
+  background-color: black;
+}
 
+.a h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.a h4 {
+  padding-bottom: 15px;
+}
+
+
+
+.tea {
+  width: 1000px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
 }
 .loc {
   height: 500px;
