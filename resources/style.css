@@ -1,0 +1,31 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#logo {
+
+}
+
+.main, .tea, .loc, .cont, footer, header {
+  border: 1px solid white;
+}
+
+.main {
+  height: 700px;
+}
+
+.tea {
+
+}
+.loc {
+  height: 500px;
+}
+
+.cont {
+  height: 200px;
+}
