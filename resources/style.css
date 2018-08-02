@@ -10,8 +10,28 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+}
+h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: 2.0;
+}
+
+#boss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
+/*  header/navigation */
 
 .header {
   margin: 0;
@@ -52,24 +72,7 @@ a {
 }
 
 
-.tea, .loc, .cont, footer {
-  border: 1px solid white;
-}
-
-.miss, #boss, .tea, .TOTMo, .list, {
-  border: 2px solid red;
-}
-
-
-#boss {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
+/* Mission Section */
 .miss {
   margin: 0;
   height: 700px;
@@ -89,23 +92,21 @@ a {
   background-color: black;
 }
 
+
 .mission h1 {
-  font-size: 40px;
   font-weight: bold;
   margin: 0;
-  padding:10px 0 0 0 ;
+  padding:10px 0 0 0;
 }
 
-.mission h4 {
+.mission h2 {
   font-size: 25px;
   padding-bottom: 15px;
   padding: 0 0 10px 0;
   margin: 15px;
 }
 
-
-
-
+/* Tea List Section */
 
 .tea {
 
@@ -117,8 +118,12 @@ a {
 
   text-align: center;
 }
-.TOTMo h2 {
+.TOTMo h1 {
   font-weight: bold;
+}
+
+.TOTMo h2 {
+  margin-top: 0;
 }
 
 .list {
@@ -142,14 +147,45 @@ a {
   margin-right: 0;
 }
 
-
+/*Location Section*/
 
 .loc {
-  border : 5px solid green;
+  background-image: url("./images/location.jpg");
   height: 500px;
+  width: 1200px;
 }
 
+.loc h1 {
+}
+
+.loc h2 {
+  margin-top: 20px;
+}
+
+.place {
+  display: flex;
+  justify-content: space-around;
+}
+
+.place div  {
+  background-color: black;
+  margin: 55px 20px;
+  opacity: 1;
+  height: 250px;
+  width: 300px;
+}
+
+.east span {
+  font-size: 24px;
+}
+
+/* Contact Section */
+
 .cont {
-  border : 5px solid green;
   height: 200px;
+}
+
+footer {
+  margin: 30px 0px 0px 20px;
+  float: left;
 }
